@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Raw generated CSVs (checker regenerates these using generate_data.py)
+duka_sales.csv
+agents.csv
+agent_transactions.csv
+
+# Python and Jupyter artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
